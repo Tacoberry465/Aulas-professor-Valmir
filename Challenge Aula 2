@@ -1,0 +1,47 @@
+<!-- elaborar um convite virtual
+
+tem que colocar uma imagem que represente o aniversario
+
+criar um título secundário - aniversário americano
+
+vai ter que consta o que levar
+
+depois do titulo secundário vai ter uma lista com opçoes do que levar
+
+criar um terceiro titulo com a localização da festa usando um elemento ancora e a 
+localiação da casa de vcs no google maps
+
+usar um rodapé simples em paragrafo final quem desenvolveu o convite-->
+
+<h1>Convite de aniversário</h1>
+<img src="https://conviter.com/storage/imagens-templates/1536582023062611071976499daca09e73.webp" width="300" alt="desenho de um convite bosta">
+<br>
+<hr>
+<h2>Aniverário estilo americano</h2>
+<p>Cada um traz alguma coisa da lista:</p>
+<ol>
+    <li>Pastel
+        <ul>
+            <li>Carne</li>
+            <li>Queijo</li>
+            <li>Palmito</li>
+        </ul>
+    </li>
+    <li>Refrigerante
+        <ul>
+            <li>Coca</li>
+            <li>Fanta
+                <ul><li>Aceitamos Fanta Uva</li></ul>
+            </li>
+            <li>Sprite</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Endereço da festa</h2>
+<p>O endereço está no seguinte <a href="https://maps.app.goo.gl/LtPewf5u7TVgQ2XW9">Link</a></p>
+<br>
+<p>Tragam toda a família</p>
+<br>
+<hr>
+<p>Site desenvolvido por Jefferson Costa</p>
