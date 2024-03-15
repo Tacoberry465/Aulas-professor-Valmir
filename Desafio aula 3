@@ -1,0 +1,104 @@
+<html>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        p{
+            color: brown;
+        }
+        div{
+
+            background-color: black;
+        }
+        h1{
+            color: azure;
+        }
+    </style>
+<body>
+    <div>
+    <img src="https://www.pontotel.com.br/wp-content/uploads/2022/05/imagem-corporativa.jpg" width="800" height="180" alt="">
+    <hr>
+    <h1>INSCRIÇÃO</h1>
+    <!-- inscrição aqui em fiz css lá no começo, definindo todo body e div
+    daquela cor e forma -->
+    <hr>
+</div>
+<h2>Dados pessoais</h2>
+ <ol>
+    <li> <span style="color: blue; background-color: black;">Nome Completo: </span>
+        <input name="text">
+    </li>
+    <!-- nesse li eu fiz um css in line -->
+    <br>
+    <li>
+        Data de Nascimento:
+        <input type="date">
+    </li>
+    <br>
+    <li>Gênero:<br>
+        <input type="radio">Masculino<br>
+        <input type="radio">Feminino<br>
+        <input type="radio">Outros<br>
+    </li>
+    <br>
+    <li>Cpf:<br>
+        <input type="number">
+    </li>
+ </ol>
+ <input type="submit" value="Enviar" onSubmit='return confirm("jura?")'>
+<br>
+<hr>
+<h2>Dados do programa</h2>
+<p>Selecione a área de atuação do seu programa</p>
+<select name="Área de utilidade" id="">
+    <option value="Educação">Educação</option>
+    <option value="Industrial">Industrial</option>
+    <option value="Administrcação Pública">Administrcação Pública</option>
+    <option value="Segurança Pública">Segurança Pública</option>
+    <option value="Finanças">Finanças</option>
+    <option value="Qrq outra coisa, sei lá">Qrq outra coisa, sei lá</option>
+</select>
+
+<p>Quanto você pretende ganhar com essa bagaça?</p>
+
+<input type="range" value='50' max='100'>
+<span>R$ 20.000</span>
+
+<hr>
+<br>
+
+<head>
+<table border="2">
+    <caption>
+        <b>Análise SWOT do teu negócio</b>
+        <hr>
+    </caption>
+    <tr>
+        <th> <a href="https://translate.google.com.br/?hl=pt-BR&tab=rT&sl=pt&tl=en&text=streng&op=translate">Streng</a>
+            <input type="text">
+            <th>
+                Weakness
+                <input type="text">
+            </th>
+    </th>
+    </tr>
+    <tr>
+        <th><a href="https://translate.google.com.br/?hl=pt-BR&tab=rT&sl=pt&tl=en&text=oportunidade&op=translate">Opportunity</a>
+            <input type="text">
+        </th>
+        <th>Threats
+            <input type="text">
+        </th>
+    </tr>
+</table>
+</head>
+
+<h3>Demonstração de type nas listas:</h3>
+
+<ul>
+    <li type="a">lista com letras</li>
+    <li type="I">lista com algarismo romanos</li>
+</ul>
+
+</body>
+</html>
